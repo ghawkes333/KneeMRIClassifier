@@ -1,9 +1,7 @@
 {
   "model": "google/medgemma-4b-it",
-  "fine_tuned": false,
   "view": "sagittal",
-  "n_samples": 30,
-  "metrics": {
+  "baseline": {
     "n_evaluated": 30,
     "n_unparseable": 0,
     "view": "sagittal",
@@ -19,6 +17,25 @@
       [
         11,
         3
+      ]
+    ]
+  },
+  "finetuned": {
+    "n_evaluated": 30,
+    "n_unparseable": 0,
+    "view": "sagittal",
+    "accuracy": 0.5333333333333333,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        16,
+        0
+      ],
+      [
+        14,
+        0
       ]
     ]
   }
