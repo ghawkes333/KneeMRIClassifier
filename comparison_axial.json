@@ -1,0 +1,42 @@
+{
+  "model": "google/medgemma-4b-it",
+  "view": "axial",
+  "baseline": {
+    "n_evaluated": 120,
+    "n_unparseable": 0,
+    "view": "axial",
+    "accuracy": 0.55,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        66,
+        0
+      ],
+      [
+        54,
+        0
+      ]
+    ]
+  },
+  "finetuned": {
+    "n_evaluated": 120,
+    "n_unparseable": 0,
+    "view": "axial",
+    "accuracy": 0.55,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        66,
+        0
+      ],
+      [
+        54,
+        0
+      ]
+    ]
+  }
+}
