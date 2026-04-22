@@ -7,19 +7,23 @@
     "n_evaluated": 120,
     "n_unparseable": 0,
     "view": "axial",
-    "accuracy": 0.55,
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1": 0.0,
+    "accuracy": 0.65,
+    "precision": 0.6428571428571429,
+    "recall": 0.5,
+    "f1": 0.5625,
     "confusion_matrix": [
       [
-        66,
-        0
+        51,
+        15
       ],
       [
-        54,
-        0
+        27,
+        27
       ]
-    ]
+    ],
+    "response_first_word_dist": {
+      "no": 78,
+      "yes": 42
+    }
   }
 }
